@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-marksheet{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.861), rgba(0, 0, 0, 0)), url(./bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main{
+    width: 180px;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 35px;
+    border-radius: 5px;
+    text-align: center;
+    /* color: green;    */
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+.content input{
+    width: 170px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;    
+}
+
+.content button{
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.content button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.content .reload{
+    margin: 0;
+    width: 100px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.data h3{
+    margin: 10px;
+    font-size: 15px;
+}   
+
+
+.grade{
+    background-color: black;
+    padding: 5px;
+    color: white;
+}

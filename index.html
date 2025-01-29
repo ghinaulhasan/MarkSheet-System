@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkSheet</title>
+    <link rel="stylesheet" href="./index.css">    
+</head>
+<body>
+
+     <div class="container-marksheet">
+        <div class="main">
+            <div class="content">
+                <h2><u>MarkSheet:</u></h2>
+
+                <input type="number" placeholder="Enter English Marks " id="eng">
+                <input type="number" placeholder="Enter Maths Marks " id="maths">
+            <input type="number" placeholder="Enter Physics Marks " id="phy">
+                <button onclick="result()">Click to Show Result</button>
+                <button class="reload" onclick="reload()">Reload</button>
+                <div class="data">
+                    <h3>Total Marks = 300</h3>
+                    <h3>Obtained Marks = <span id="obt"></span></h3>
+                    <h3>Percentage = <span id="per"></span>%</h3>
+                    <h3 class="grade">Grade = <span id="grade"></span></h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
